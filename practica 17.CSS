@@ -1,0 +1,46 @@
+table{
+    table-layout: fixed;
+    width: 50%;
+}
+thead th:nth-child(1){
+    width: 40%;
+}
+thead th:nth-child(2){
+    width: 40%;
+}
+
+
+th,td{
+    padding: 15px;
+}
+thead th,tfoot th,caption{
+    font-family: Arial, Georgia, sans-serif;
+}
+th{
+    letter-spacing: 3px;
+}
+td{
+letter-spacing: 1px;
+}
+tbody td{
+    text-align: center;
+}
+tfoot th{
+    text-align: right;
+}
+
+
+table{
+    background-color: #B0C4DE;
+}
+thead,tfoot{
+    color:yellow;
+    text-shadow: 10 px 8 px 3 px  rgb(6, 7, 15);
+}
+thead th,tfoot th{
+    background:linear-gradient(to bottom, rgb(0, 4, 255),rgb(0, 183, 255));
+}
+table,tr,th,td{
+    border-collapse: collapse;
+    border: 3px solid black;
+}
